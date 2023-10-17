@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T11:04:19.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-FEX-ypwwNOQEkeh5RdI" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-17T11:41:08.520Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="God0amI-lTOuTtQ4Dvd6" version="21.7.2" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="1804" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,10 +55,13 @@
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-18" value="task_api_realtime_dispath_topic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-70" y="195" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.033;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7b0p1Mp8p-Ngd0mBVlGu-28">
+        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.133;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7b0p1Mp8p-Ngd0mBVlGu-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="200" as="sourcePoint" />
             <mxPoint x="610" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="616" y="198" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-21" value="站点粒度分布式锁+ 点位-进行中任务 关系&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -70,8 +73,8 @@
             <mxPoint x="480" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-23" value="进行中任务持久化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="215" y="208" width="120" height="30" as="geometry" />
+        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-23" value="进行中任务存储" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="208" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7b0p1Mp8p-Ngd0mBVlGu-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -113,12 +116,12 @@
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="350" as="sourcePoint" />
-            <mxPoint x="620" y="350" as="targetPoint" />
+            <mxPoint x="340" y="340" as="sourcePoint" />
+            <mxPoint x="620" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-39" value="获取主站点进行中任务id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="318" width="150" height="30" as="geometry" />
+          <mxGeometry x="350" y="310" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="485" y="410" width="30" height="82" as="geometry" />
@@ -129,16 +132,16 @@
             <mxPoint x="480" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-42" value="召回进行中任务详情" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="345" y="400" width="130" height="30" as="geometry" />
+        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-42" value="召回派发任务详情" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-43" value="db" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="80" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="7b0p1Mp8p-Ngd0mBVlGu-51">
+        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7b0p1Mp8p-Ngd0mBVlGu-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="515" y="230" as="sourcePoint" />
-            <mxPoint x="730" y="230" as="targetPoint" />
+            <mxPoint x="610" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7b0p1Mp8p-Ngd0mBVlGu-43">
@@ -148,23 +151,14 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-46" value="t_streaming_job" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="640" y="225" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="515" y="460" as="sourcePoint" />
             <mxPoint x="740" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-51" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="208" width="30" height="82" as="geometry" />
-        </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-52" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="430" width="30" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-55" value="t_streaming_job" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="615" y="438" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-56" value="t_job" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="645" y="456" width="50" height="30" as="geometry" />
@@ -177,7 +171,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="185" width="30" height="40" as="geometry" />
+          <mxGeometry x="620" y="185" width="30" height="75" as="geometry" />
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-59" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="7b0p1Mp8p-Ngd0mBVlGu-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -221,6 +215,15 @@
         </mxCell>
         <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-67" value="取消任务推送bos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="345" y="610" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="370" as="sourcePoint" />
+            <mxPoint x="620" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7b0p1Mp8p-Ngd0mBVlGu-73" value="召回进行中任务详情" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="340" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

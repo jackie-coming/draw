@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T07:10:52.162Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lnDUeY_36Lin6sU3sVvL" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T07:19:19.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="sSpQZ_e3tRm1t68VXkOE" version="22.1.4" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="4MUZql2UYZA6WcCp4JFE-1" value="bos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4MUZql2UYZA6WcCp4JFE-3" value="kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4MUZql2UYZA6WcCp4JFE-3" value="&lt;br&gt;kafka&lt;br&gt;(action粒度)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4MUZql2UYZA6WcCp4JFE-4" value="调度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -31,8 +31,13 @@
             <mxPoint x="540" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4MUZql2UYZA6WcCp4JFE-11" value="写入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="545" y="78" width="50" height="30" as="geometry" />
+        <mxCell id="4MUZql2UYZA6WcCp4JFE-25" value="1:N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4MUZql2UYZA6WcCp4JFE-10">
+          <mxGeometry x="-0.6442" y="4" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4MUZql2UYZA6WcCp4JFE-11" value="写入（N:1）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="78" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4MUZql2UYZA6WcCp4JFE-12" value="写入点位进行中车辆数+点位进行中任务idList" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="160" width="260" height="30" as="geometry" />
@@ -48,9 +53,6 @@
             <mxPoint x="340" y="130" as="sourcePoint" />
             <mxPoint x="390" y="129.5" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="4MUZql2UYZA6WcCp4JFE-17" value="任务粒度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="315" y="98" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4MUZql2UYZA6WcCp4JFE-18" value="流式触发源（站点粒度）" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="700" y="310" width="120" height="80" as="geometry" />
@@ -78,6 +80,12 @@
         </mxCell>
         <mxCell id="4MUZql2UYZA6WcCp4JFE-23" value="触发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="545" y="358" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4MUZql2UYZA6WcCp4JFE-26" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="228" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4MUZql2UYZA6WcCp4JFE-27" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="388" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

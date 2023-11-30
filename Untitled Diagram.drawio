@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T03:57:38.199Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-iJocE1puEmtgzGWzPQa" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T05:54:22.881Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9-saPt3GeASP2lMA2_Bj" version="22.1.5" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -91,19 +91,19 @@
           <mxGeometry x="250" y="70" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X4xyX6ZAneE_ti3FvR2u-1" value="bos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="510" width="120" height="310" as="geometry" />
         </mxCell>
         <mxCell id="X4xyX6ZAneE_ti3FvR2u-2" value="调度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="510" width="120" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="X4xyX6ZAneE_ti3FvR2u-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.025;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.017;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X4xyX6ZAneE_ti3FvR2u-1" target="X4xyX6ZAneE_ti3FvR2u-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="600" as="sourcePoint" />
-            <mxPoint x="420" y="600" as="targetPoint" />
+            <mxPoint x="180" y="549" as="sourcePoint" />
+            <mxPoint x="440" y="549" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-4" value="mq/http 哪些任务id发生了变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="170" y="570" width="240" height="30" as="geometry" />
+        <mxCell id="X4xyX6ZAneE_ti3FvR2u-4" value="mq/http 通知 哪些任务id发生了变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="165" y="520" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X4xyX6ZAneE_ti3FvR2u-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X4xyX6ZAneE_ti3FvR2u-2" target="X4xyX6ZAneE_ti3FvR2u-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -112,16 +112,41 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X4xyX6ZAneE_ti3FvR2u-6" value="http 定时轮询+实时轮询，获取任务详情" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="160" y="650" width="300" height="30" as="geometry" />
+          <mxGeometry x="150" y="790" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-7" value="db任务池" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="630" y="580" width="80" height="80" as="geometry" />
+        <mxCell id="X4xyX6ZAneE_ti3FvR2u-7" value="es任务池" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="730" y="500" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="X4xyX6ZAneE_ti3FvR2u-7">
+        <mxCell id="X4xyX6ZAneE_ti3FvR2u-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.033;exitY=0.103;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X4xyX6ZAneE_ti3FvR2u-2" target="X4xyX6ZAneE_ti3FvR2u-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="621.48" as="sourcePoint" />
-            <mxPoint x="662.04" y="618.52" as="targetPoint" />
+            <mxPoint x="560" y="551.5" as="sourcePoint" />
+            <mxPoint x="720" y="548" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="X4xyX6ZAneE_ti3FvR2u-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X4xyX6ZAneE_ti3FvR2u-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="700" as="sourcePoint" />
+            <mxPoint x="770" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4xyX6ZAneE_ti3FvR2u-19" value="供需表（站点粒度）&lt;br&gt;进行中车辆数&lt;br&gt;进行中任务idList" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="745" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="X4xyX6ZAneE_ti3FvR2u-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.345;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X4xyX6ZAneE_ti3FvR2u-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="680" as="sourcePoint" />
+            <mxPoint x="670" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4xyX6ZAneE_ti3FvR2u-22" value="实时通知哪些站点id发生了变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="680" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4xyX6ZAneE_ti3FvR2u-23" value="实时+定时召回进行中任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="610" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4xyX6ZAneE_ti3FvR2u-24" value="实时+定时写入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="518" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

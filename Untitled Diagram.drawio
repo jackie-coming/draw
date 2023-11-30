@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T22:45:45.251Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="auyd7LPJ5quHTEvdVr4N" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T22:46:33.073Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="b5V2OqLmGAx5sZN_0sbR" version="22.1.5" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -302,7 +302,7 @@
             <mxPoint x="980" y="235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-14" value="召回点位上的进行中车辆数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSSjZ6uWFVWfRWVECBId-13">
+        <mxCell id="lSSjZ6uWFVWfRWVECBId-14" value="&lt;font color=&quot;#ff3333&quot;&gt;召回点位上的进行中车辆数(核心）&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSSjZ6uWFVWfRWVECBId-13">
           <mxGeometry x="0.0841" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

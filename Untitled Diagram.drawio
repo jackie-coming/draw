@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T23:58:36.040Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BsZjev-iYt6g0qDPLDHi" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T23:58:51.026Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8nVw-p-GTrbxZdilL9J1" version="22.1.5" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -746,13 +746,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-143" value="实时通知哪些站点id发生了变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="585" y="4415" width="190" height="30" as="geometry" />
+          <mxGeometry x="565" y="4480" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-144" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.345;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.029;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="lSSjZ6uWFVWfRWVECBId-124">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="4385" as="sourcePoint" />
             <mxPoint x="690" y="4508" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lSSjZ6uWFVWfRWVECBId-145" value="" style="shape=stencil(fZbdcgIhDIWfZm8zQAg/17Z9j85U606tdqz9e/tmZ0c0uJ47xP0I5JwEBl59bp8/1kNwn6fj4W39M76ctgM/DCGM++36OJ50NPDjwKvN4bh+PR6+9i/z74/n6ctp9H74nlb4nbmSKZeJCu5vngmZ6jzzNAO7cX8FVKEsBuBKrgKg9oAE8gkCbLeUhEoEQKSUDZDLeWYRKIl8MEDRmHwfyBrBG6Amyu4+kDxxMoB3jhwgYu7TVAsVkFcWCs4CTBEoF4RctKeOxHIf8IXYpikHikAIf+MNUW94AGSSaoAoFIE3AlOyeWU+p2E5S9yfQZcQILVuQOwZdJNoS9Ls3wA5u2XZTIHECqeJ9kDpSaauRiNVcAY1QhdBzeLBli5WazpkSsBLV25uRaqWRyFawTQzRRIQYirJzq5atkBqLfouwqUxLBepthWb10vrWZY6UOAeyKCCtDV625mm9gmUC4Wc3VLJMMIE1BsA2FW9JraVlQB7n3c9oMKhCLEvIM1zBPZ25/umNQ1tVEC2G+fFCC8g398O2hNQuQlVu752DBfA+q0ptnqO5JFmeuIuo9DY7KjY71UxdJV4EntifPWorW++R/dC4t7V3DlIB5cHx2bc7eb3yvX//QNFp+bHDT/+Aw==);lineShape=1;" vertex="1" parent="1">
+          <mxGeometry x="1210.8679608424754" y="4390.875312458519" width="4.67253977211567" height="4.665236216357698" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

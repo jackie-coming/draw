@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T03:49:20.044Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lGcbIIPz5zLusm3rxn0L" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T03:31:12.451Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="G3nznw6fFaccMNPlCHtu" version="22.1.5" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="130" y="100" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4MUZql2UYZA6WcCp4JFE-4" value="调度" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="100" width="90" height="60" as="geometry" />
+          <mxGeometry x="340" y="100" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4MUZql2UYZA6WcCp4JFE-6" value="进行中任务表（任务粒度、db）" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
           <mxGeometry x="690" y="20" width="120" height="80" as="geometry" />
@@ -37,10 +37,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4MUZql2UYZA6WcCp4JFE-11" value="写入（N:1）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="525" y="78" width="90" height="30" as="geometry" />
+          <mxGeometry x="525" y="70" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4MUZql2UYZA6WcCp4JFE-12" value="写入点位进行中车辆数+点位进行中任务idList" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="480" y="160" width="260" height="30" as="geometry" />
+          <mxGeometry x="580" y="150" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4MUZql2UYZA6WcCp4JFE-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4MUZql2UYZA6WcCp4JFE-1" target="4MUZql2UYZA6WcCp4JFE-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -57,7 +57,7 @@
         <mxCell id="4MUZql2UYZA6WcCp4JFE-18" value="流式触发源（站点粒度）" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
           <mxGeometry x="700" y="310" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4MUZql2UYZA6WcCp4JFE-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.004;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.05;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4MUZql2UYZA6WcCp4JFE-12" target="4MUZql2UYZA6WcCp4JFE-18" edge="1">
+        <mxCell id="4MUZql2UYZA6WcCp4JFE-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.433;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.05;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4MUZql2UYZA6WcCp4JFE-4" target="4MUZql2UYZA6WcCp4JFE-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="340" as="sourcePoint" />
             <mxPoint x="690" y="350" as="targetPoint" />
@@ -88,7 +88,7 @@
           <mxGeometry x="570" y="388" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4MUZql2UYZA6WcCp4JFE-28" value="多个action并发消费" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="280" y="100" width="130" height="30" as="geometry" />
+          <mxGeometry x="250" y="70" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

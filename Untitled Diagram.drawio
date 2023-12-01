@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T00:19:59.324Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="B0mz7UhaeXYW5iqHSkYN" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T00:21:06.799Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OSvypphIQFIU7WNSAOXe" version="22.1.5" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -637,8 +637,10 @@
             <mxPoint x="862" y="3929" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-163" value="召回点位上的进行中任务id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="890" y="3795" width="160" height="30" as="geometry" />
+        <mxCell id="lSSjZ6uWFVWfRWVECBId-186" value="召回点位上的进行中任务id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSSjZ6uWFVWfRWVECBId-162">
+          <mxGeometry x="-0.4693" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-164" value="召回任务详情" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="3680" width="100" height="30" as="geometry" />
@@ -666,13 +668,15 @@
         <mxCell id="lSSjZ6uWFVWfRWVECBId-169" value="1、自建点位升星&lt;br&gt;2、流式取消&lt;br&gt;3、众包规避反向调度" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1080" y="3640" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-170" value="实时通知哪些站点id发生了变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="525" y="3980" width="190" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-171" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.27;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.029;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lSSjZ6uWFVWfRWVECBId-155" target="lSSjZ6uWFVWfRWVECBId-158">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="3825" as="sourcePoint" />
             <mxPoint x="690" y="3948" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSSjZ6uWFVWfRWVECBId-185" value="&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;实时通知哪些站点id发生了变化&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 0, 0); font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;消费逻辑下移，不直接依赖有状态的消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSSjZ6uWFVWfRWVECBId-171">
+          <mxGeometry x="-0.2162" y="1" relative="1" as="geometry">
+            <mxPoint x="13" y="26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-172" value="es任务池" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">

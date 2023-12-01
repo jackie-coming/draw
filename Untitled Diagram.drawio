@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T00:01:33.847Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SYTxVQzSi8Ncgopgo5CT" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T00:05:05.745Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jcNE1fo8qYiVuM60UPrD" version="22.1.5" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -739,7 +739,7 @@
         <mxCell id="lSSjZ6uWFVWfRWVECBId-141" value="通过消费actionTime实时+&lt;br&gt;定时写入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="4260" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-142" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lSSjZ6uWFVWfRWVECBId-142" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.017;exitY=0.122;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lSSjZ6uWFVWfRWVECBId-120">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="585" y="4309" as="sourcePoint" />
             <mxPoint x="720" y="4309" as="targetPoint" />

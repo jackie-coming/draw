@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T00:24:40.941Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="b_hIZ9ct0E-uDqwpwcYq" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T00:25:57.059Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VbFzDAAmouyU3vLoEEAo" version="22.1.5" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -524,7 +524,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-129" value="兜底能力，定时删除过期的任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="lSSjZ6uWFVWfRWVECBId-129" value="&lt;font color=&quot;#ff0000&quot;&gt;兜底能力，定时删除过期的任务&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="848.75" y="3150" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-130" value="进行中任务表（任务粒度、db)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">

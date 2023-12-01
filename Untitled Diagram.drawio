@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T00:06:14.702Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="a85ThvdC28l3yF0I90dO" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T00:06:40.676Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="N-5GFeZz6tXVblUd9_K1" version="22.1.5" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -167,63 +167,6 @@
         </mxCell>
         <mxCell id="X4xyX6ZAneE_ti3FvR2u-40" value="兜底能力，定时删除过期的任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="837.5" y="820" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-44" value="bos" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="3330" width="120" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-45" value="调度" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="3410" width="120" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.025;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.017;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220.04" y="3460" as="sourcePoint" />
-            <mxPoint x="505.00000000000006" y="3460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-47" value="mq&amp;nbsp; 通知哪些任务id发生了什么样的变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="215" y="3430" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-48" value="es任务池" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="800" y="3320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="X4xyX6ZAneE_ti3FvR2u-48" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="3520" as="sourcePoint" />
-            <mxPoint x="840" y="3560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-51" value="供需表（站点粒度）&lt;br&gt;进行中车辆数&lt;br&gt;进行中任务idList" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="3565" width="190" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.345;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="X4xyX6ZAneE_ti3FvR2u-45" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="3500" as="sourcePoint" />
-            <mxPoint x="740" y="3560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-53" value="实时通知哪些站点id发生了变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="630" y="3500" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-55" value="实时+定时召回进行中任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="770" y="3470" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-56" value="兜底能力，定时删除过期的任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="880" y="3580" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.009;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.618;exitY=1.086;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="X4xyX6ZAneE_ti3FvR2u-56" target="X4xyX6ZAneE_ti3FvR2u-51" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1020" y="3620" as="sourcePoint" />
-            <mxPoint x="750" y="3510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.028;entryY=0.726;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="X4xyX6ZAneE_ti3FvR2u-48" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="3380" as="sourcePoint" />
-            <mxPoint x="270" y="3330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="X4xyX6ZAneE_ti3FvR2u-59" value="dump引擎" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="460" y="3348" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.017;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.027;exitY=0.645;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lSSjZ6uWFVWfRWVECBId-7" target="4MUZql2UYZA6WcCp4JFE-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -585,61 +528,6 @@
         <mxCell id="lSSjZ6uWFVWfRWVECBId-96" value="&lt;font color=&quot;#ff3333&quot;&gt;实时强一致性约束&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSSjZ6uWFVWfRWVECBId-95">
           <mxGeometry x="-0.0671" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-97" value="bos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="85" y="3760" width="120" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-98" value="调度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="495" y="3760" width="120" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-99" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.025;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.017;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="205.04" y="3890" as="sourcePoint" />
-            <mxPoint x="490" y="3890" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-100" value="mq&amp;nbsp; 通知哪些任务id发生了什么样的变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="200" y="3860" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-101" value="es任务池" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="785" y="3750" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.033;exitY=0.103;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lSSjZ6uWFVWfRWVECBId-98" target="lSSjZ6uWFVWfRWVECBId-101">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="615" y="3801.5" as="sourcePoint" />
-            <mxPoint x="775" y="3798" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-103" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lSSjZ6uWFVWfRWVECBId-101">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="695" y="3950" as="sourcePoint" />
-            <mxPoint x="825" y="3990" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-104" value="供需表（站点粒度）&lt;br&gt;进行中车辆数&lt;br&gt;进行中任务idList" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="675" y="3995" width="190" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-105" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.345;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lSSjZ6uWFVWfRWVECBId-98">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="505" y="3930" as="sourcePoint" />
-            <mxPoint x="725" y="3990" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-107" value="通过消费actionTime实时+&lt;br&gt;定时写入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="615" y="3750" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-108" value="实时+定时召回进行中任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="755" y="3900" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-109" value="兜底能力，定时删除过期的任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="865" y="4010" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-110" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.009;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.618;exitY=1.086;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lSSjZ6uWFVWfRWVECBId-109" target="lSSjZ6uWFVWfRWVECBId-104">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1005" y="4050" as="sourcePoint" />
-            <mxPoint x="735" y="3940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-113" value="召回点位上进行中任务详情" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">

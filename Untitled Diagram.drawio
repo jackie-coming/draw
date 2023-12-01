@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T00:21:06.799Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OSvypphIQFIU7WNSAOXe" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T00:21:41.608Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gUafVPF-DXZyLVAKt8GW" version="22.1.5" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -174,6 +174,11 @@
             <mxPoint x="980" y="208" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lSSjZ6uWFVWfRWVECBId-189" value="召回点位上的进行中任务id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSSjZ6uWFVWfRWVECBId-1">
+          <mxGeometry x="-0.1751" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.025;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.018;exitY=0.591;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lSSjZ6uWFVWfRWVECBId-7" target="4MUZql2UYZA6WcCp4JFE-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="990" y="80" as="sourcePoint" />
@@ -182,9 +187,6 @@
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-7" value="1、自建点位升星&lt;br&gt;2、流式取消&lt;br&gt;3、众包规避反向调度" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1050" y="10" width="110" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-8" value="召回点位上的进行中任务id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="870" y="120" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-9" value="召回任务详情" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="880" y="45" width="100" height="30" as="geometry" />
@@ -218,8 +220,10 @@
             <mxPoint x="842" y="754" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-37" value="召回点位上的进行中任务id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="870" y="620" width="160" height="30" as="geometry" />
+        <mxCell id="lSSjZ6uWFVWfRWVECBId-188" value="召回点位上的进行中任务id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSSjZ6uWFVWfRWVECBId-36">
+          <mxGeometry x="-0.2165" y="-4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-38" value="召回任务详情" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="900" y="505" width="100" height="30" as="geometry" />
@@ -314,8 +318,10 @@
             <mxPoint x="855.75" y="1289" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lSSjZ6uWFVWfRWVECBId-61" value="召回点位上的进行中任务id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="883.75" y="1155" width="160" height="30" as="geometry" />
+        <mxCell id="lSSjZ6uWFVWfRWVECBId-187" value="召回点位上的进行中任务id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lSSjZ6uWFVWfRWVECBId-60">
+          <mxGeometry x="-0.1843" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lSSjZ6uWFVWfRWVECBId-62" value="召回任务详情" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="913.75" y="1040" width="100" height="30" as="geometry" />

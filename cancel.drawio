@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T08:37:22.887Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DvDNhRN-wwOoNRZ6vxfa" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T08:38:26.665Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="0sk49M19BNxV6_iF6Evb" version="22.1.5" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="2100" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -511,6 +511,12 @@
             <mxPoint x="645" y="1192.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="x3i6QHXwzPUDBxG21b24-107" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1080" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x3i6QHXwzPUDBxG21b24-108" value="分城市召回供需表站点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1090" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

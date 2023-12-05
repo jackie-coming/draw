@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T08:38:48.656Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="iN8oSbxu5CtOL2WUy9U4" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T08:40:42.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WeP71sQStEeT7ZHKuVBr" version="22.1.5" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="2100" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -500,7 +500,7 @@
         </mxCell>
         <mxCell id="x3i6QHXwzPUDBxG21b24-104" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="645" y="1150" as="sourcePoint" />
+            <mxPoint x="645" y="1105" as="sourcePoint" />
             <mxPoint x="645" y="1105" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
@@ -512,20 +512,23 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x3i6QHXwzPUDBxG21b24-107" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1080" width="20" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="x3i6QHXwzPUDBxG21b24-108" value="分城市召回供需表站点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="145" y="1090" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="x3i6QHXwzPUDBxG21b24-109" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.033;entryY=0.891;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x3i6QHXwzPUDBxG21b24-87" target="x3i6QHXwzPUDBxG21b24-23">
+        <mxCell id="x3i6QHXwzPUDBxG21b24-109" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.033;entryY=0.891;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="175" y="1170" as="sourcePoint" />
-            <mxPoint x="310" y="1160" as="targetPoint" />
+            <mxPoint x="175" y="1102.63" as="sourcePoint" />
+            <mxPoint x="315.99000000000024" y="1100.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x3i6QHXwzPUDBxG21b24-110" value="批量站点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="195" y="1138" width="70" height="30" as="geometry" />
+        <mxCell id="x3i6QHXwzPUDBxG21b24-111" value="分城市批量站点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x3i6QHXwzPUDBxG21b24-109">
+          <mxGeometry x="-0.1574" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3i6QHXwzPUDBxG21b24-115" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="645" y="1150" as="sourcePoint" />
+            <mxPoint x="645" y="1180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

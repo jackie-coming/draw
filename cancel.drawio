@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T09:06:28.888Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="q-yp5CtkFu5gPpV2BFkW" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T09:06:38.348Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SwRqb0PoZWlUUNrEGJXK" version="22.1.5" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="2100" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -355,7 +355,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="x3i6QHXwzPUDBxG21b24-28" value="&amp;nbsp;重试策略+actionTime+任务id是否写入成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1000" width="250" height="30" as="geometry" />
+          <mxGeometry x="225" y="990" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x3i6QHXwzPUDBxG21b24-29" value="es" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="840" width="70" height="40" as="geometry" />

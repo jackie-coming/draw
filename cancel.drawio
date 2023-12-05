@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T11:46:46.921Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="96I9XYZrltAbuHHe26EM" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T11:47:06.142Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="rvzVShY86tIyndstWZtE" version="22.1.5" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="2412" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -766,8 +766,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x3i6QHXwzPUDBxG21b24-208" value="分城市召回进行中job触发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="145" y="1719" width="160" height="30" as="geometry" />
+        <mxCell id="x3i6QHXwzPUDBxG21b24-208" value="分城市召回进行中job" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="145" y="1719" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

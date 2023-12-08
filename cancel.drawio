@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T03:32:04.713Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="EXVQAw19qrSFjnJXNbTR" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T03:32:27.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_SgmFRCah2uOF9XO3QTD" version="22.1.7" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="2883" dy="1149" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -937,7 +937,7 @@
             <mxPoint x="247" y="2490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R50wVixJRsDdBi6ZneIu-56" value="" style="swimlane;startSize=0;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="R50wVixJRsDdBi6ZneIu-56" value="" style="swimlane;startSize=0;fillColor=#000000;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="331" y="2790" width="191" height="230" as="geometry" />
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-57" value="engine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-56">
@@ -960,7 +960,7 @@
         <mxCell id="R50wVixJRsDdBi6ZneIu-61" value="任务派发/取消" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-56">
           <mxGeometry x="34" y="177" width="120" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="R50wVixJRsDdBi6ZneIu-64" value="" style="swimlane;startSize=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="R50wVixJRsDdBi6ZneIu-64" value="" style="swimlane;startSize=0;fillColor=#FF3333;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="768" y="2956" width="200" height="199" as="geometry" />
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-65" value="bos" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-64">

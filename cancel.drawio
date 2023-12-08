@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T03:18:45.393Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MKfLps2v_zX9OoigZIm_" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T03:19:03.726Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qkOkPm51bFIZs29Tz8J_" version="22.1.7" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="3283" dy="1149" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -866,7 +866,7 @@
           <mxGeometry x="780" y="2364" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-21" value="任务池（bos）" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1176" y="2956" width="60" height="80" as="geometry" />
+          <mxGeometry x="1176" y="2956" width="83" height="107" as="geometry" />
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-23" value="进行中任务池（调度）" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="790" y="2541" width="60" height="80" as="geometry" />
@@ -1054,7 +1054,7 @@
         <mxCell id="R50wVixJRsDdBi6ZneIu-108" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="959" y="3077" as="sourcePoint" />
-            <mxPoint x="1180" y="3010" as="targetPoint" />
+            <mxPoint x="1170" y="3014" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-115" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="1" source="R50wVixJRsDdBi6ZneIu-104">

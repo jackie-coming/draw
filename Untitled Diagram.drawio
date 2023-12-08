@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T04:59:05.652Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_IhgIJgvYk3NWPQydFVe" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T04:59:16.349Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="TPuhsRNuWggZuipaKnSm" version="22.1.7" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="1562" dy="862" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -897,7 +897,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NbhhaddsbXWEGsMJ0kvF-14" value="1、自建点位升星&lt;br&gt;2、流式取消&lt;br&gt;3、众包规避反向调度" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="4940" width="110" height="110" as="geometry" />
+          <mxGeometry x="1140" y="4942" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NbhhaddsbXWEGsMJ0kvF-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="NbhhaddsbXWEGsMJ0kvF-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">

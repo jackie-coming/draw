@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T03:24:26.751Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xURjSm5W_Lm2hAsVlgZy" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T03:24:41.745Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xUXulnhgsUa6ZIOYg6WR" version="22.1.7" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="3283" dy="1149" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -888,17 +888,12 @@
         <mxCell id="R50wVixJRsDdBi6ZneIu-29" value="召回供需" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-25">
           <mxGeometry x="34" y="76" width="120" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="R50wVixJRsDdBi6ZneIu-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="R50wVixJRsDdBi6ZneIu-25" source="R50wVixJRsDdBi6ZneIu-30">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="404" y="145.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-30" value="持久化任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-25">
           <mxGeometry x="34" y="124" width="120" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="R50wVixJRsDdBi6ZneIu-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="R50wVixJRsDdBi6ZneIu-25" source="R50wVixJRsDdBi6ZneIu-31">
+        <mxCell id="R50wVixJRsDdBi6ZneIu-127" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="R50wVixJRsDdBi6ZneIu-25" source="R50wVixJRsDdBi6ZneIu-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="401.33333333333303" y="196.5" as="targetPoint" />
+            <mxPoint x="407" y="174" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-31" value="召回任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-25">
@@ -1069,6 +1064,11 @@
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-130" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="R50wVixJRsDdBi6ZneIu-29" target="R50wVixJRsDdBi6ZneIu-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R50wVixJRsDdBi6ZneIu-125" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="R50wVixJRsDdBi6ZneIu-30" target="R50wVixJRsDdBi6ZneIu-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1189" y="2637.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

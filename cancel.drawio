@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T03:32:27.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_SgmFRCah2uOF9XO3QTD" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T03:33:04.164Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ew0cN-AniA9NOi32zIiZ" version="22.1.7" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="2883" dy="1149" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -943,7 +943,7 @@
         <mxCell id="R50wVixJRsDdBi6ZneIu-57" value="engine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-56">
           <mxGeometry x="63" y="2" width="54" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="R50wVixJRsDdBi6ZneIu-58" value="召回点位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-56">
+        <mxCell id="R50wVixJRsDdBi6ZneIu-58" value="召回任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-56">
           <mxGeometry x="34" y="26" width="120" height="43" as="geometry" />
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-59" value="召回供需" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-56">
@@ -1089,6 +1089,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.031;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R50wVixJRsDdBi6ZneIu-97" target="R50wVixJRsDdBi6ZneIu-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R50wVixJRsDdBi6ZneIu-140" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="R50wVixJRsDdBi6ZneIu-31" target="R50wVixJRsDdBi6ZneIu-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>

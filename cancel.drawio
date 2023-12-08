@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T03:17:50.849Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5WEQ8B7T3KVPCjWsks3k" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T03:18:18.973Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pOhEKwS7JmOL5pibQZoU" version="22.1.7" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="3283" dy="1149" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1029,11 +1029,21 @@
         <mxCell id="R50wVixJRsDdBi6ZneIu-97" value="定时任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-35" y="3129" width="87" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="R50wVixJRsDdBi6ZneIu-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R50wVixJRsDdBi6ZneIu-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559.6666666666665" y="3166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-98" value="数据平台" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="362" y="3126" width="103" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="R50wVixJRsDdBi6ZneIu-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R50wVixJRsDdBi6ZneIu-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355.6666666666665" y="3169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-101" value="hive" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="3139" width="60" height="60" as="geometry" />
+          <mxGeometry x="168" y="3139" width="79" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-103" value="t-1离线任务生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="61" y="3140" width="104" height="26" as="geometry" />

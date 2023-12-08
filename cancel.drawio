@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T02:40:46.993Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pAmfNoL-6mPoYGVySIZH" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T02:41:33.499Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="PYouKPTySonjHb0F3gmV" version="22.1.7" type="github">
   <diagram name="Page-1" id="b5c7aztyqT4D3_MfnT8D">
     <mxGraphModel dx="2362" dy="862" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -919,13 +919,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-48" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="-126" y="2431" width="200" height="125" as="geometry" />
+          <mxGeometry x="-141" y="2444" width="151" height="90" as="geometry" />
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-49" value="normandyService" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-48">
-          <mxGeometry x="42" y="5" width="111" height="26" as="geometry" />
+          <mxGeometry x="20" y="5" width="111" height="26" as="geometry" />
         </mxCell>
         <mxCell id="R50wVixJRsDdBi6ZneIu-50" value="触发供需生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="R50wVixJRsDdBi6ZneIu-48">
-          <mxGeometry x="37.5" y="31" width="120" height="43" as="geometry" />
+          <mxGeometry x="13" y="31" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="R50wVixJRsDdBi6ZneIu-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R50wVixJRsDdBi6ZneIu-48" target="R50wVixJRsDdBi6ZneIu-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

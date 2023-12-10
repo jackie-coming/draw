@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T04:13:09.842Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="dt07pGrDO-tVw_YTcEBm" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T04:21:06.057Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="HgM3TM1DD0HtD-laoEEm" version="22.1.7" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="2110" dy="1092" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -1068,6 +1068,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="832" y="5497" as="sourcePoint" />
             <mxPoint x="827" y="4957" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiQ4cLRSF6LVRMv8QQis-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;点位进行中车辆数基于全量的action消费，排查问题需要排查每一个action是否正确消费，平均一天4个job,12个action，由于是消费全量的job，需要验证&lt;font color=&quot;#ff3333&quot;&gt;12*n（n-&amp;gt;无限大）&lt;/font&gt;的消费（&lt;font color=&quot;#ff3333&quot;&gt;可维护性差&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83" y="5549" width="708" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ4cLRSF6LVRMv8QQis-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="792" y="5576" as="sourcePoint" />
+            <mxPoint x="867" y="5576" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T04:31:20.161Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="95rcVDARslisHigVkrg0" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T04:32:36.033Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QiNEQ8_7-ysyCuKt4FT0" version="22.1.7" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="2110" dy="1092" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -1093,6 +1093,15 @@
         </mxCell>
         <mxCell id="uiQ4cLRSF6LVRMv8QQis-18" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;bos(action)-&amp;gt;调度（任务）-&amp;gt;flink(站点)（&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 20px;&quot; color=&quot;#ff3333&quot;&gt;业务逻辑耦合&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="895" y="5709" width="708" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="uiQ4cLRSF6LVRMv8QQis-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="776.25" y="5955" as="sourcePoint" />
+            <mxPoint x="851.25" y="5955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiQ4cLRSF6LVRMv8QQis-20" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;进行中车辆数计算引入flink技术，后续将点位进行中车辆数（流）和停驻车辆数变化（流）两个流join完善基建（&lt;font color=&quot;#ff3333&quot;&gt;扩展性&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="5891" width="708" height="133" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

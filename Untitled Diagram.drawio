@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T04:23:02.039Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SjeZdWWH_8GJfjwDYajJ" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T04:23:39.561Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BnOQQlXFfqTiLO1pclx7" version="22.1.7" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="2110" dy="1092" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -1079,7 +1079,7 @@
             <mxPoint x="867" y="5576" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uiQ4cLRSF6LVRMv8QQis-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;点位进行中车辆数基于任务池中的点位进行中任务消费，排查问题只需要排查有限个任务（&lt;font color=&quot;#ff3333&quot;&gt;n&amp;lt;5&lt;/font&gt;)是否正确消费（&lt;font color=&quot;#ff3333&quot;&gt;可维护性好&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uiQ4cLRSF6LVRMv8QQis-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;点位进行中车辆数基于任务池中的点位进行中任务消费，排查问题只需要排查n（&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;n&amp;lt;5&lt;/font&gt;)个任务是否正确消费（&lt;font color=&quot;#ff3333&quot;&gt;可维护性好&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="883.75" y="5539" width="708" height="133" as="geometry" />
         </mxCell>
       </root>

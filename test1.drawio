@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T02:28:39.328Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="TJgMEzyBzdPcWOZJaYCW" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T02:31:46.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pPxDSWGE5TCd83r3ALGq" version="22.1.7" type="github">
   <diagram name="Page-1" id="yC3mzjY3plxPM7g2StnX">
     <mxGraphModel dx="2353" dy="1078" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -52,7 +52,28 @@
           <mxGeometry x="1080" y="1131" width="108" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HuB2pp5YfJez939ojKIz-8" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="212" y="1267" width="120" height="80" as="geometry" />
+          <mxGeometry x="335" y="1329" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="HuB2pp5YfJez939ojKIz-14" value="hive离线任务表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="914" y="1663" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HuB2pp5YfJez939ojKIz-15" value="mysql在线任务表" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="909" y="1293" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HuB2pp5YfJez939ojKIz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HuB2pp5YfJez939ojKIz-16" target="HuB2pp5YfJez939ojKIz-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuB2pp5YfJez939ojKIz-16" value="数据平台" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="909" y="1463" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HuB2pp5YfJez939ojKIz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.815;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HuB2pp5YfJez939ojKIz-14" target="HuB2pp5YfJez939ojKIz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuB2pp5YfJez939ojKIz-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HuB2pp5YfJez939ojKIz-5" target="HuB2pp5YfJez939ojKIz-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="802" y="1291" as="sourcePoint" />
+            <mxPoint x="852" y="1241" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

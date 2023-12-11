@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T02:08:53.405Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="bsRt961fsWaecQCmwaM4" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T02:10:09.365Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4W0e4ZAwypE0ubdeqjOp" version="22.1.7" type="github">
   <diagram name="Page-1" id="yC3mzjY3plxPM7g2StnX">
     <mxGraphModel dx="2803" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,10 +28,7 @@
             <mxPoint x="1150" y="99.44" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YGQXA21O0GmYbxI1VbBq-9" value="&lt;font color=&quot;#ff0000&quot;&gt;备用链路&lt;/font&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="20" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="HuB2pp5YfJez939ojKIz-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.685;exitY=0.161;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;strokeColor=#FF0000;" edge="1" parent="1" source="YGQXA21O0GmYbxI1VbBq-1" target="YGQXA21O0GmYbxI1VbBq-3">
+        <mxCell id="HuB2pp5YfJez939ojKIz-3" value="&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#ff0000&quot;&gt;备用链路&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.685;exitY=0.161;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;strokeColor=#FF0000;" edge="1" parent="1" source="YGQXA21O0GmYbxI1VbBq-1" target="YGQXA21O0GmYbxI1VbBq-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="790" y="410" as="sourcePoint" />
             <mxPoint x="840" y="360" as="targetPoint" />

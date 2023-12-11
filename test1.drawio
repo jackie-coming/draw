@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T02:59:20.632Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NIirPyQY4KE8VRD9zbst" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T02:59:50.914Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AIG3BEjl1otcZX1MYgbp" version="22.1.7" type="github">
   <diagram name="Page-1" id="yC3mzjY3plxPM7g2StnX">
     <mxGraphModel dx="2353" dy="1078" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -65,13 +65,13 @@
         <mxCell id="HuB2pp5YfJez939ojKIz-15" value="任务池（db" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="909" y="1293" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HuB2pp5YfJez939ojKIz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HuB2pp5YfJez939ojKIz-16" target="HuB2pp5YfJez939ojKIz-15" edge="1">
+        <mxCell id="HuB2pp5YfJez939ojKIz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF3333;" parent="1" source="HuB2pp5YfJez939ojKIz-16" target="HuB2pp5YfJez939ojKIz-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HuB2pp5YfJez939ojKIz-16" value="数据平台" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
           <mxGeometry x="909" y="1463" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HuB2pp5YfJez939ojKIz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.815;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HuB2pp5YfJez939ojKIz-14" target="HuB2pp5YfJez939ojKIz-16" edge="1">
+        <mxCell id="HuB2pp5YfJez939ojKIz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.815;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" parent="1" source="HuB2pp5YfJez939ojKIz-14" target="HuB2pp5YfJez939ojKIz-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HuB2pp5YfJez939ojKIz-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF3333;" parent="1" source="HuB2pp5YfJez939ojKIz-5" target="HuB2pp5YfJez939ojKIz-15" edge="1">
@@ -88,7 +88,7 @@
         <mxCell id="HuB2pp5YfJez939ojKIz-28" value="算法离线分析" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png" parent="1" vertex="1">
           <mxGeometry x="889" y="1802" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HuB2pp5YfJez939ojKIz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HuB2pp5YfJez939ojKIz-28" target="HuB2pp5YfJez939ojKIz-14" edge="1">
+        <mxCell id="HuB2pp5YfJez939ojKIz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" parent="1" source="HuB2pp5YfJez939ojKIz-28" target="HuB2pp5YfJez939ojKIz-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XEe7G3EG6hNFT0tt4RNM-37" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="HuB2pp5YfJez939ojKIz-30" target="XEe7G3EG6hNFT0tt4RNM-21">

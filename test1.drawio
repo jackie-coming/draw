@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T02:41:48.157Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="UIduGgT-P420OQy-Uw_y" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T02:45:20.472Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JC8nOOql3g1MieVp34El" version="22.1.7" type="github">
   <diagram name="Page-1" id="yC3mzjY3plxPM7g2StnX">
     <mxGraphModel dx="1962" dy="862" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
         <mxCell id="HuB2pp5YfJez939ojKIz-14" value="hive离线任务表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="914" y="1663" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HuB2pp5YfJez939ojKIz-15" value="mysql在线任务表" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="HuB2pp5YfJez939ojKIz-15" value="任务池（db" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="909" y="1293" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HuB2pp5YfJez939ojKIz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HuB2pp5YfJez939ojKIz-16" target="HuB2pp5YfJez939ojKIz-15" edge="1">
@@ -66,8 +66,8 @@
             <mxPoint x="852" y="1241" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HuB2pp5YfJez939ojKIz-25" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 20px;&quot;&gt;备用链路&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HuB2pp5YfJez939ojKIz-24" vertex="1" connectable="0">
-          <mxGeometry x="-0.1252" y="-2" relative="1" as="geometry">
+        <mxCell id="XEe7G3EG6hNFT0tt4RNM-7" value="召回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HuB2pp5YfJez939ojKIz-24">
+          <mxGeometry x="-0.056" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>

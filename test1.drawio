@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T02:31:46.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pPxDSWGE5TCd83r3ALGq" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T02:32:15.626Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ePvy2nnu7tzpCKvRaUlE" version="22.1.7" type="github">
   <diagram name="Page-1" id="yC3mzjY3plxPM7g2StnX">
     <mxGraphModel dx="2353" dy="1078" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,10 +69,15 @@
         <mxCell id="HuB2pp5YfJez939ojKIz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.815;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HuB2pp5YfJez939ojKIz-14" target="HuB2pp5YfJez939ojKIz-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HuB2pp5YfJez939ojKIz-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HuB2pp5YfJez939ojKIz-5" target="HuB2pp5YfJez939ojKIz-15">
+        <mxCell id="HuB2pp5YfJez939ojKIz-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF3333;" edge="1" parent="1" source="HuB2pp5YfJez939ojKIz-5" target="HuB2pp5YfJez939ojKIz-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="802" y="1291" as="sourcePoint" />
             <mxPoint x="852" y="1241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HuB2pp5YfJez939ojKIz-25" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 20px;&quot;&gt;备用链路&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HuB2pp5YfJez939ojKIz-24">
+          <mxGeometry x="-0.1252" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

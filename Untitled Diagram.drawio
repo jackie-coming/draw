@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T01:44:22.147Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Hpw2OWiZ6nI1iDr_XzZg" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T03:41:58.183Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="i32SZMYSi1Y8VDGVU91L" version="22.1.16" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="1962" dy="862" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -859,8 +859,21 @@
         <mxCell id="NbhhaddsbXWEGsMJ0kvF-5" value="供需表（站点粒度）&lt;br&gt;进行中车辆数&lt;br&gt;进行中任务idList" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1200" y="5396" width="141.25" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="8SlIH__lK4c21zNPunBz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NbhhaddsbXWEGsMJ0kvF-6" target="NbhhaddsbXWEGsMJ0kvF-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1235" y="5155" />
+              <mxPoint x="1235" y="5155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8SlIH__lK4c21zNPunBz-2" value="&lt;font color=&quot;#ff0000&quot;&gt;兜底离线任务&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8SlIH__lK4c21zNPunBz-1">
+          <mxGeometry x="-0.5706" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NbhhaddsbXWEGsMJ0kvF-6" value="进行中任务表（任务粒度、db)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1211" y="4966" width="135" height="120" as="geometry" />
+          <mxGeometry x="1211" y="4966" width="135" height="104" as="geometry" />
         </mxCell>
         <mxCell id="NbhhaddsbXWEGsMJ0kvF-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.005;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.591;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NbhhaddsbXWEGsMJ0kvF-14" target="NbhhaddsbXWEGsMJ0kvF-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -899,13 +912,13 @@
         <mxCell id="NbhhaddsbXWEGsMJ0kvF-14" value="1、自建点位升星&lt;br&gt;2、流式取消&lt;br&gt;3、众包规避反向调度" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1570" y="4948" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="NbhhaddsbXWEGsMJ0kvF-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="NbhhaddsbXWEGsMJ0kvF-6" edge="1">
+        <mxCell id="NbhhaddsbXWEGsMJ0kvF-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="NbhhaddsbXWEGsMJ0kvF-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1271.25" y="5086" as="sourcePoint" />
-            <mxPoint x="1279" y="5181" as="targetPoint" />
+            <mxPoint x="1312" y="5177" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NbhhaddsbXWEGsMJ0kvF-18" value="&lt;font color=&quot;#ff0000&quot;&gt;实时+定时&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NbhhaddsbXWEGsMJ0kvF-17" vertex="1" connectable="0">
+        <mxCell id="NbhhaddsbXWEGsMJ0kvF-18" value="&lt;font color=&quot;#ff0000&quot;&gt;实时+全量&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NbhhaddsbXWEGsMJ0kvF-17" vertex="1" connectable="0">
           <mxGeometry x="0.0438" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -929,12 +942,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NbhhaddsbXWEGsMJ0kvF-24" value="&lt;font color=&quot;#ff3333&quot;&gt;flink聚合计算&lt;/font&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1208.75" y="5182" width="135" height="120" as="geometry" />
+          <mxGeometry x="1265" y="5176" width="103.75" height="120" as="geometry" />
         </mxCell>
         <mxCell id="NbhhaddsbXWEGsMJ0kvF-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1275.75" y="5301" as="sourcePoint" />
-            <mxPoint x="1275.75" y="5396" as="targetPoint" />
+            <mxPoint x="1314" y="5301" as="sourcePoint" />
+            <mxPoint x="1314" y="5396" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NbhhaddsbXWEGsMJ0kvF-26" value="&lt;font color=&quot;#ff3333&quot;&gt;消费actionTime实时+&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;定时写入&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NbhhaddsbXWEGsMJ0kvF-25" vertex="1" connectable="0">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T12:37:29.016Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TLTZx1tdFUpx_PM8jwRl" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T12:40:44.034Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_Vy3BCdK4fKnj0gLJIgv" version="22.1.16" type="github">
   <diagram name="Page-1" id="kT9_dr_BF-10qV57XZLN">
     <mxGraphModel dx="1962" dy="862" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -1176,19 +1176,19 @@
         <mxCell id="uiQ4cLRSF6LVRMv8QQis-41" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;cover核心链路的技术方案设计&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1419" y="6506" width="287" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="HHj-8U36o5q5qSimAQwA-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="HHj-8U36o5q5qSimAQwA-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="716.25" y="6664" width="264" height="264" as="geometry" />
         </mxCell>
-        <mxCell id="HHj-8U36o5q5qSimAQwA-2" value="B端调度" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="858.75" y="6706" width="80" height="80" as="geometry" />
+        <mxCell id="HHj-8U36o5q5qSimAQwA-2" value="c端调度" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="760" y="6813" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HHj-8U36o5q5qSimAQwA-3" value="c端调度" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="HHj-8U36o5q5qSimAQwA-3" value="b端调度" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="749.38" y="6711" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HHj-8U36o5q5qSimAQwA-4" value="换电" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="760" y="6808" width="80" height="80" as="geometry" />
+        <mxCell id="HHj-8U36o5q5qSimAQwA-4" value="换电" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="858.75" y="6713" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HHj-8U36o5q5qSimAQwA-5" value="稳定性、架构升级" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="HHj-8U36o5q5qSimAQwA-5" value="稳定性、架构升级" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="867" y="6803" width="80" height="80" as="geometry" />
         </mxCell>
       </root>

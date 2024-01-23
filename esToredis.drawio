@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T03:00:27.618Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MqBVgIIQbWw3v8dOBFEc" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T03:03:49.496Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="oCM3t0u86ETyqx70MLNA" version="22.1.21" type="github">
   <diagram name="Page-1" id="S1rUACISWY6sOPMUhKgR">
     <mxGraphModel dx="1077" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,6 +43,52 @@
           <mxGeometry x="0.3785" y="7" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-7" value="离线数据、实时数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-8" value="redis站点画像" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="480" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#FF0000;" edge="1" parent="1" source="sL05nYkXovJ7XhGZHYJO-9" target="sL05nYkXovJ7XhGZHYJO-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-9" value="flink" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="435" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-10" value="es站点画像" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sL05nYkXovJ7XhGZHYJO-7" target="sL05nYkXovJ7XhGZHYJO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="sL05nYkXovJ7XhGZHYJO-9" target="sL05nYkXovJ7XhGZHYJO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-14" value="1、供需生成&lt;br&gt;2、派单+推荐&lt;br&gt;3、换电" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="700" y="420" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="sL05nYkXovJ7XhGZHYJO-14" target="sL05nYkXovJ7XhGZHYJO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-16" value="复杂检索召回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sL05nYkXovJ7XhGZHYJO-15">
+          <mxGeometry x="0.1024" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;strokeColor=#FF0000;" edge="1" parent="1" source="sL05nYkXovJ7XhGZHYJO-14" target="sL05nYkXovJ7XhGZHYJO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-18" value="点查召回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sL05nYkXovJ7XhGZHYJO-17">
+          <mxGeometry x="0.3785" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-28" value="proxy服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="395" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sL05nYkXovJ7XhGZHYJO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.57;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="sL05nYkXovJ7XhGZHYJO-28" target="sL05nYkXovJ7XhGZHYJO-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

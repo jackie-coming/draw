@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T07:50:32.004Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jpgZY-JBGgz0w9R6rZHA" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T07:50:40.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="e09GzywxlHyajLZmTQJ1" version="23.1.1" type="github">
   <diagram name="Page-1" id="S1rUACISWY6sOPMUhKgR">
     <mxGraphModel dx="1488" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
         <mxCell id="jUp1MN6hgcdxJVd2CNAe-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="jUp1MN6hgcdxJVd2CNAe-7" target="JjKUXy3HaD7UEp5rCnlF-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mHxhmtTHbz5m5pkZyqsU-1" value="低频数据写缓存召回站点全量低频字段数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jUp1MN6hgcdxJVd2CNAe-11">
+        <mxCell id="mHxhmtTHbz5m5pkZyqsU-1" value="&lt;font color=&quot;#ff0000&quot;&gt;低频数据写缓存召回站点全量低频字段数据&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jUp1MN6hgcdxJVd2CNAe-11">
           <mxGeometry x="0.4225" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

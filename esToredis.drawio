@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T07:50:40.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="e09GzywxlHyajLZmTQJ1" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T07:51:29.488Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="dTp1YFo_MML51CtNGFor" version="23.1.1" type="github">
   <diagram name="Page-1" id="S1rUACISWY6sOPMUhKgR">
     <mxGraphModel dx="1488" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t0VUrO4ShJZMhkDMtAg_-2" value="&lt;font color=&quot;#ff0000&quot;&gt;未命中缓存，高频数据更新缓存&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jUp1MN6hgcdxJVd2CNAe-13" vertex="1" connectable="0">
+        <mxCell id="t0VUrO4ShJZMhkDMtAg_-2" value="&lt;font color=&quot;#ffcc99&quot;&gt;未命中缓存，高频数据更新缓存&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jUp1MN6hgcdxJVd2CNAe-13" vertex="1" connectable="0">
           <mxGeometry x="0.1849" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -140,13 +140,13 @@
         <mxCell id="JjKUXy3HaD7UEp5rCnlF-8" value="1、供需生成&lt;br&gt;2、派单+推荐&lt;br&gt;3、换电" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="870" y="800" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="JjKUXy3HaD7UEp5rCnlF-13" value="proxy服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="JjKUXy3HaD7UEp5rCnlF-13" value="proxy服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="480" y="690" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JjKUXy3HaD7UEp5rCnlF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.57;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" parent="1" source="JjKUXy3HaD7UEp5rCnlF-13" target="JjKUXy3HaD7UEp5rCnlF-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JjKUXy3HaD7UEp5rCnlF-16" value="高频数据kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="JjKUXy3HaD7UEp5rCnlF-16" value="高频数据kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="300" y="690" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jUp1MN6hgcdxJVd2CNAe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JjKUXy3HaD7UEp5rCnlF-4" target="JjKUXy3HaD7UEp5rCnlF-5" edge="1">

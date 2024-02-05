@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T07:56:31.008Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="EvlogR2nX-nLhB2Fy-_f" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T07:57:10.089Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="viRQOWFwyM1VXQHTzCBH" version="23.1.1" type="github">
   <diagram name="Page-1" id="S1rUACISWY6sOPMUhKgR">
     <mxGraphModel dx="1488" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -111,7 +111,7 @@
         <mxCell id="JjKUXy3HaD7UEp5rCnlF-4" value="flink" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="100" y="807.5" width="100" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="JjKUXy3HaD7UEp5rCnlF-5" value="es站点画像" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="JjKUXy3HaD7UEp5rCnlF-5" value="es站点画像" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#6666FF;" parent="1" vertex="1">
           <mxGeometry x="475" y="930" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JjKUXy3HaD7UEp5rCnlF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JjKUXy3HaD7UEp5rCnlF-1" target="JjKUXy3HaD7UEp5rCnlF-4" edge="1">

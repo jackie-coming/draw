@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T07:51:29.488Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="dTp1YFo_MML51CtNGFor" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-05T07:52:43.302Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="XKmXATqTj-UsyddmjMrU" version="23.1.1" type="github">
   <diagram name="Page-1" id="S1rUACISWY6sOPMUhKgR">
     <mxGraphModel dx="1488" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -163,7 +163,7 @@
         <mxCell id="jUp1MN6hgcdxJVd2CNAe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jUp1MN6hgcdxJVd2CNAe-5" target="jUp1MN6hgcdxJVd2CNAe-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jUp1MN6hgcdxJVd2CNAe-5" value="低频数据kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="jUp1MN6hgcdxJVd2CNAe-5" value="低频数据kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#99FF99;" parent="1" vertex="1">
           <mxGeometry x="300" y="780" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jUp1MN6hgcdxJVd2CNAe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JjKUXy3HaD7UEp5rCnlF-4" target="jUp1MN6hgcdxJVd2CNAe-5" edge="1">
@@ -177,7 +177,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jUp1MN6hgcdxJVd2CNAe-7" value="proxy服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="jUp1MN6hgcdxJVd2CNAe-7" value="proxy服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" parent="1" vertex="1">
           <mxGeometry x="480" y="780" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jUp1MN6hgcdxJVd2CNAe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.579;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="jUp1MN6hgcdxJVd2CNAe-7" target="JjKUXy3HaD7UEp5rCnlF-2" edge="1">
@@ -186,7 +186,7 @@
         <mxCell id="jUp1MN6hgcdxJVd2CNAe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.307;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="JjKUXy3HaD7UEp5rCnlF-8" target="jUp1MN6hgcdxJVd2CNAe-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t0VUrO4ShJZMhkDMtAg_-4" value="&lt;font color=&quot;#ff0000&quot;&gt;未命中缓存，低频数据更新缓存&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jUp1MN6hgcdxJVd2CNAe-19" vertex="1" connectable="0">
+        <mxCell id="t0VUrO4ShJZMhkDMtAg_-4" value="&lt;font color=&quot;#66ff66&quot;&gt;未命中缓存，低频数据更新缓存&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="jUp1MN6hgcdxJVd2CNAe-19" vertex="1" connectable="0">
           <mxGeometry x="0.0046" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

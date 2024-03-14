@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T03:42:24.846Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="YPRlClI87CgGXPbV1fyd" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-14T03:48:22.283Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="sAY19o5PWtxK1UKgFhkj" version="24.0.6" type="github">
   <diagram name="Page-1" id="e7l5NAIDdgF0fvydmfBQ">
     <mxGraphModel dx="1008" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxPoint x="400" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s0HVV7xXB6eCspoIpS_d-3" value="城市粒度&lt;div&gt;聚合&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="s0HVV7xXB6eCspoIpS_d-3" value="geohash6粒度&lt;div&gt;聚合点位&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="460" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s0HVV7xXB6eCspoIpS_d-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="s0HVV7xXB6eCspoIpS_d-4" target="s0HVV7xXB6eCspoIpS_d-6" edge="1">
@@ -39,11 +39,21 @@
         <mxCell id="s0HVV7xXB6eCspoIpS_d-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="s0HVV7xXB6eCspoIpS_d-6" target="s0HVV7xXB6eCspoIpS_d-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BdAMOgpZT7fb4fQjEPyR-3" value="打供需标" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s0HVV7xXB6eCspoIpS_d-10">
+          <mxGeometry x="-0.789" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="s0HVV7xXB6eCspoIpS_d-6" value="es召回geohash6点位集合" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="330" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s0HVV7xXB6eCspoIpS_d-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="s0HVV7xXB6eCspoIpS_d-7" target="s0HVV7xXB6eCspoIpS_d-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BdAMOgpZT7fb4fQjEPyR-2" value="打星级标" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s0HVV7xXB6eCspoIpS_d-11">
+          <mxGeometry x="-0.702" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="s0HVV7xXB6eCspoIpS_d-7" value="特征召回geohash6点位集合" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="425" y="330" width="80" height="60" as="geometry" />
@@ -57,12 +67,22 @@
         <mxCell id="s0HVV7xXB6eCspoIpS_d-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="s0HVV7xXB6eCspoIpS_d-16" target="s0HVV7xXB6eCspoIpS_d-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BdAMOgpZT7fb4fQjEPyR-6" value="供需标" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s0HVV7xXB6eCspoIpS_d-17">
+          <mxGeometry x="0.1176" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="s0HVV7xXB6eCspoIpS_d-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s0HVV7xXB6eCspoIpS_d-16" target="s0HVV7xXB6eCspoIpS_d-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="660" />
               <mxPoint x="490" y="660" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdAMOgpZT7fb4fQjEPyR-5" value="星级标" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s0HVV7xXB6eCspoIpS_d-18">
+          <mxGeometry x="0.1959" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s0HVV7xXB6eCspoIpS_d-16" value="召回点位详情" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">

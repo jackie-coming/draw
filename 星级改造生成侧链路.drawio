@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T03:38:44.836Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="AiUlAU3lWYtOxtKM4LZ-" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-14T03:40:22.364Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="INzUYI6rJrkGeSrngAiF" version="24.0.6" type="github">
   <diagram name="Page-1" id="e7l5NAIDdgF0fvydmfBQ">
     <mxGraphModel dx="1041" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,8 +9,8 @@
             <mxPoint x="400" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s0HVV7xXB6eCspoIpS_d-3" value="聚合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="430" width="80" height="60" as="geometry" />
+        <mxCell id="s0HVV7xXB6eCspoIpS_d-3" value="城市粒度&lt;div&gt;聚合&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s0HVV7xXB6eCspoIpS_d-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s0HVV7xXB6eCspoIpS_d-4" target="s0HVV7xXB6eCspoIpS_d-6">
           <mxGeometry relative="1" as="geometry" />
@@ -21,15 +21,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s0HVV7xXB6eCspoIpS_d-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s0HVV7xXB6eCspoIpS_d-4" target="s0HVV7xXB6eCspoIpS_d-7">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="260" />
+              <mxPoint x="465" y="260" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="s0HVV7xXB6eCspoIpS_d-21" value="星级改造灰度城市" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s0HVV7xXB6eCspoIpS_d-9">
           <mxGeometry x="-0.0491" y="2" relative="1" as="geometry">
             <mxPoint x="39" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s0HVV7xXB6eCspoIpS_d-4" value="job触发层" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="140" width="80" height="80" as="geometry" />
+        <mxCell id="s0HVV7xXB6eCspoIpS_d-4" value="job触发层&lt;div&gt;全国城市&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="140" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s0HVV7xXB6eCspoIpS_d-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s0HVV7xXB6eCspoIpS_d-6" target="s0HVV7xXB6eCspoIpS_d-3">
           <mxGeometry relative="1" as="geometry" />
